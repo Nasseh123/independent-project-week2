@@ -22,5 +22,10 @@ function getName(){
         alert("PLease Enter the coreect month");
         //checking a leap year
     }
-
+    else if ((year%4)==0 && month==2 && day>28 ){
+        alert( "Input correct date!\n \n "+ year +" "+ "Has 28 days on February")
+        //Validating days of february.
+    }else if ((year%4)!==0 &&month==2  && day>29){
+        alert ( "Input correct date!\n \n "+ year +" "+ "Has 29 days on February")
+    }
 }
