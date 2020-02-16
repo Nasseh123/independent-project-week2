@@ -31,5 +31,7 @@ function getName(){
     alert("validation complete")
     var day =new Date (year + "/" + month + "/"+ day);
     alert (day);
+    var birthDay=day.getDay();
+    alert (birthDay+ "the dayyy")
     
 }
