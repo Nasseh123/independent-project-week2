@@ -5,8 +5,11 @@
         <link href="css/styles.css" rel="stylesheet" type="text/css">
         <script src="js/scripts.js"></script>
     </head>
-    <body>
-        <Div class="container">
+    <body style="background-image: url(images/dark-blur-blurred-gradient-1526.jpg) ; align-self: auto;">
+    <div class="row">
+      
+    </div>
+        <Div class="container" >
             <div class="jumbotron">
                 <H1 style="text-align: center;">GHANIAN NAME GENERATOR</H1>
                 <hr>
@@ -29,7 +32,8 @@
                             <li>Friday: Kofi</li>
                             <li>Saturday: Kwame</li>
                         </ul>
-                    </div>
+                      </div>
+
                     <div class="col-md-6 card " style="text-align: center;">
                         <h2>Female</h2>
                         <ul>
@@ -41,13 +45,58 @@
                             <li>Friday: Afua</li>
                             <li>Saturday: Ama</li>
                         </ul>
-    
                     </div>
-
                 </div>
-            
-               
+            </div>  
+            <div class="card">
+                <h2>Details:</h2>
+                <form onsubmit="getName()">
+                  <div class="form-group">
+                    <div >
+                      <label for="radio" class="radio-inline">
+                        <input type="radio" name="gender" value="male"id="male" required/>Male
+                      </label>
+                      <label for="radio" class="radio-inline">
+                        <input type="radio" name="gender" value="female"id="female" required>Female
+                      </label>
+                      <div class="form-group">
+                        <h4>Year Born:</h4>
+                        <label for="year">
+                          <input type="text" id="year" placeholder=""
+                          min="1990"
+                          max="2020"
+                          required>
+                        </label>
+                        <div class="form-group">
+                          <h4>Month Born:</h4>
+                          <label for="month">
+                            <input type="text" id="month" placeholder=""
+                            min="0"
+                            max="12"
+                            required>
+                          </label>
+                          <div class="form-group">
+                            <h3>Day Born:</h3>
+                            <label for="day">
+                              <input type="text" id="day" placeholder=""
+                              min="0"
+                              max="31"
+                              required>
+                            </label>
+                          </div>
+                          <button type="submit"onclick= "getName()"
+                          onsubmit="event.preventDefault()"
+                          class="button">SUBMIT DETAILS</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+
             </div>
+
+
+
         </Div>
 
 
