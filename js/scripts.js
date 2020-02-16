@@ -28,4 +28,8 @@ function getName(){
     }else if ((year%4)!==0 &&month==2  && day>29){
         alert ( "Input correct date!\n \n "+ year +" "+ "Has 29 days on February")
     }
+    alert("validation complete")
+    var day =new Date (year + "/" + month + "/"+ day);
+    alert (day);
+    
 }
