@@ -11,9 +11,16 @@ function getName(){
     var male=document.getElementById("male");
     var female=document.getElementById("female");
     alert(true)
-    var vali=((day>0 || day<=31)&&(month>0||month<=12 ));
-    var vali2=(((year%4)==0 && month==2 && day<=28 ));
-    var vali3=((year%4)!==0 &&month==2  && day<=29);
+    
 
-   
+    alert (vali)
+    
+
+    if (day<=0 || day>31 ){
+        alert("Please input the correct day")
+    }else if (month<0||month>12 ){
+        alert("PLease Enter the coreect month");
+        //checking a leap year
+    }
+
 }
