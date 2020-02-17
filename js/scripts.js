@@ -14,7 +14,7 @@ function getName(){
     var vali2=(((year%4)==0 && month==2 && day<=28 ));
     var vali3=((year%4)!==0 &&month==2  && day<=29);
     //alert (vali)
-    //alert(vali2+ "valll222")
+    //(vali2+ "valll222")
     //alert(vali3 +"val33")
     
 
@@ -36,10 +36,11 @@ function getName(){
     var birthDay=day.getDay();
     //alert (birthDay+ "the dayyy")
     if (vali== true && male.checked==true){
-       // alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + maleNames[birthDay]);
+       alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + maleNames[birthDay]);
         document.getElementById("demo").innerHTML = "You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + maleNames[birthDay];
     }else if (female.checked){
-        alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + femaleNames[birthDay])
+        alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + femaleNames[birthDay]);
+        document.getElementById("demo").innerHTML = "You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + femaleNames[birthDay];
 
     }
 }
