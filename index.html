@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <title>Akan Name Generator</title>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
         <script src="js/scripts.js"></script>
@@ -11,17 +12,22 @@
         <Div class="container" >
             <div class="jumbotron su sp">
                 <H1 style="text-align: center;">GHANIAN NAME GENERATOR</H1>
+                
                 <hr>
                 <div class="row">
                     <div class="col-md-12 ">
-                        This is ghanian calander that allows you to input some details like your birth year,your 
+                      <img src="images/5.jpeg"alt="profile" > 
+                        <p>
+                          This is ghanian calander that allows you to input some details like your birth year,your 
                         birth date and birth day and year.Our work it to calculate the day of the week you were born and then dependng on your gender output we will display your Akan Name.
                         Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+                        </p>
                     </div>
                 </div>
                 <div class="row si ">
                     <div class="col-md-6 card si" style="text-align: center; ">
-                        <h2 >Male</h2>
+                        <h2 >MALE</h2>
+                        <hr>
                         <ul>
                             <LI>Sunday: Kwasi</LI>
                             <li>Monday: Kwadwo</li>
@@ -34,7 +40,8 @@
                       </div>
 
                     <div class="col-md-6 card so " style="text-align: center;">
-                        <h2>Female</h2>
+                        <h2>FEMALE</h2>
+                        <hr>
                         <ul>
                             <li>Sunday: Akosua</li>
                             <li>Monday: Adwoa</li>
@@ -48,9 +55,13 @@
                 </div>
             </div>  
 
-            <div id="demo" style="text-align: center;">
-            <div class="card st sp" >            
+            <div id="demo" style="text-align: center;font-size: 40px; color: whitesmoke ">
+            </div>
+            <div class="card  sp" >    
+            
                 <h2>Details:</h2>
+                  
+
                 <form onsubmit="getName()" method="post" id="welcomeform">
                   <div class="form-group">
                     <div >
@@ -63,7 +74,7 @@
                       <div class="form-group">
                         <h4>Year Born:</h4>
                         <label for="year">
-                          <input type="text" id="year" placeholder=""
+                          <input type="number" id="year" placeholder=""
                           min="1990"
                           max="2020"
                           required>
@@ -71,7 +82,7 @@
                         <div class="form-group">
                           <h4>Month Born:</h4>
                           <label for="month">
-                            <input type="text" id="month" placeholder=""
+                            <input type="number" id="month" placeholder=""
                             min="0"
                             max="12"
                             required>
@@ -79,15 +90,15 @@
                           <div class="form-group">
                             <h3>Day Born:</h3>
                             <label for="day">
-                              <input type="text" id="day" placeholder=""
+                              <input type="number" id="day" placeholder=""
                               min="0"
                               max="31"
                               required>
                             </label>
                           </div>
-                          <button type="button"onclick= "getName()"
+                          <button type="submit"onclick= "getName()"
                           onsubmit="changeText"
-                          class="button">SUBMIT DETAILS</button>
+                          class="SUBMIT">SUBMIT DETAILS</button>
                         </div>
                       </div>
                     </div>
