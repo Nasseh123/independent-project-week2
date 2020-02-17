@@ -15,3 +15,26 @@ body{
 .so{
     background-color: rgb(239, 170, 241);
 }
+.sp{
+    background-color: rgb(170, 209, 245);
+    text-align: center;
+}
+img{
+    float: left;
+}
+h2{
+    font-weight: 800;
+    font-size: 50px;
+    
+}
+h4{
+    font-size: 30px;
+
+}
+p{
+    font-weight: 700;
+    font-size: 23px;
+}
+h1{
+    font-weight: 900;
+}
