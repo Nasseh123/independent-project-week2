@@ -1,0 +1,12 @@
+[33m1afcd08[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Addition of background image
+[33md63a058[m added new variables for validationg correct input of days of the month so as to reject incorrect input while assigning a name
+[33mfa5fa00[m added a control structure for validating between the male and female radio box and hence giving them a correct name
+[33m4c5a50f[m declared a variable called birthday for getting the specific day in a number so as to be to used in calling the arrays
+[33m3986ad1[m declared the day again so as to get the exact day of the day you were born
+[33m091ca5d[m added a validation procedure for checking for leap years and correct input of february dates in different years
+[33m022094a[m Created a control flow for validating the input of coreect day and coreect month
+[33m314cfc5[m Created a function for calling the inputs from index.html
+[33meb359e7[m Declared varibales in arrays for the male names and the female names
+[33m5e91a69[m Creation of the layout of the header
+[33md0c8514[m Linking of inde.html file to the css and javascript
+[33mb653160[m CReation of directories and files for the project
